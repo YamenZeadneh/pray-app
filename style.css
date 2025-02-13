@@ -1,0 +1,57 @@
+#titleButton
+{
+    display: flex;
+    align-items:center;
+    flex-wrap: wrap;
+    justify-content:center;
+    column-gap: 50px;
+    row-gap: 10px;
+    margin: -10px -10px -10px -10px;
+    padding: 30px 30px 30px 30px;
+    background-color: #026902;
+
+}
+.translateButton
+{
+    font-size: 30px;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 16px;
+    background-color: #ffffff00;
+    color: #000000;
+    cursor: pointer;
+    transition: all 0.3s ease-in 0.1s; 
+}
+
+.translateButton:hover
+{
+    transform: scale(1.1);
+    color: rgb(223, 255, 244);
+    background-color: #ffffff38;
+}
+#main
+{
+    display: flex;
+    align-items:flex-start;
+    flex-wrap: wrap;
+    margin: 50px;
+    border-radius: 24px;
+    background-color: #a0bfe2;
+    text-align: center;
+}
+#timeRemain
+{
+    
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    gap: 5px;
+    flex:0.25;
+    align-items: flex-start;
+    padding: 10px;
+    margin: 50px;
+    border-radius: 16px;
+    background-color: #08518d;
+    
+    cursor: url("recourse/clock.png") , auto;
+}
