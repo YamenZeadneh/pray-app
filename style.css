@@ -46,7 +46,7 @@
     justify-content:center;
     flex-wrap: wrap;
     gap: 5px;
-    flex:0.25;
+    flex:0.5;
     align-items: flex-start;
     padding: 10px;
     margin: 50px;
@@ -54,4 +54,40 @@
     background-color: #08518d;
     
     cursor: url("recourse/clock.png") , auto;
+}
+#information
+{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    gap: 5px;
+    flex:1;
+    align-items: flex-start;
+    padding: 10px;
+    margin: 50px;
+    border-radius: 16px;
+    background-color: #08518d;
+    cursor: url("recourse/clock.png") , auto;
+}
+#prayTimer
+{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    gap: 5px;
+    flex:2;
+    align-items:flex-end ;
+    padding: 10px;
+    margin: 50px;
+    border-radius: 16px;
+    background-color: #08518d;
+    cursor: url("recourse/clock.png") , auto;
+}
+.prayName
+{
+    font-size: 20px;
+    padding: 5px 15px;
+    border-radius: 4px;
+    
+    background-color: rgba(84, 124, 160, 0.61);
 }
